@@ -1,0 +1,219 @@
+.card{
+    box-shadow: none !important;
+}
+.card-head{
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+}
+.card-content{
+    color: #9699a2 !important;
+    font-size: 1rem !important;
+}
+.gray-color{
+    color: #9699a2 !important;
+}
+.headers-color{
+    color: #575962 !important;
+}
+.c-primery-color{
+    color: #E3104D !important;
+}
+.c-secondary-color{
+    color: #3DA5F4 !important;
+}
+.c-warning{
+    color: #FF990D !important
+}
+.c-sucess{
+    color: #50CC94 !important
+}
+
+.c-primery-bg{
+    background: #E3104D !important;
+}
+.c-secondary-bg{
+    background: #3DA5F4 !important;
+}
+.c-warning-bg{
+    background: #FF990D !important
+}
+.c-sucess-bg{
+   background: #50CC94 !important
+}
+
+.c-btn-primery{
+    background: #E3104D !important;
+    color: #fff;
+}
+.c-btn-primery:hover{
+    background: #E3104D !important;
+    color: #fff !important;
+}
+
+.c-btn-secondary{
+    background: #3DA5F4 !important;
+    color: #fff;
+}
+.c-btn-secondary:hover{
+    background: #3DA5F4 !important;
+    color: #fff;
+}
+.c-btn-outline{
+    background: transparent !important;
+    color: #E3104D !important;
+    border: #E3104D !important;
+}
+.c-btn-outline:hover{
+    background: transparent !important;
+
+}
+.fill-white{
+    fill: #fff !important;
+    color: #fff !important;
+}
+a:hover{
+    color: #E3104D !important;
+}
+
+/*nav */
+.main-header{
+    background: #2C2D3A !important;
+}
+
+.main-header .dropdown-menu:after {
+    content: '';
+
+    border-bottom: 9px solid #E3104D;
+ 
+}
+.tab-content img {
+    width: auto !important;
+}
+@media only screen and (max-width: 991px){
+    .animated-arrow span, 
+.animated-arrow span:before, .animated-arrow span:after {
+
+    background: #fff;
+
+}}
+/* .horizontal-main.hor-menu{
+    background: #262734 !important;
+} */
+
+/*nav */
+.second-section{
+    background: linear-gradient(
+135deg, rgba(245,139,39,1) 0%, rgba(233,46,77,1) 100%);
+}
+
+.right img{
+    width: 358px;
+    height: 300px;
+}
+.left h1 { 
+    font-weight: 300 !important;
+}
+.left-text{
+    max-width: 450px;
+    text-align: left;
+}
+.left-input{
+    border-radius: 60px;
+}
+.left-btn{
+    border-color: #fff;
+    color: #fff;
+}
+.left-btn:hover{
+    border-color: #fff !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.refresh-icon{
+    color: #afb0c7;
+}
+#back-to-top:hover{
+    color: #fff !important;
+}
+.report{
+    min-height: 400px;
+}
+.report .card {
+    min-height: 400px;
+
+}
+.line{
+    padding: 1.1rem 0 ;
+    border-bottom: .07rem dashed #ebedf2 ;
+}
+.counter{
+    font-size: 1.2rem;
+}
+.custom-card{
+    height: 295px;
+    width: 295px;
+    padding: 10px;
+    margin: 5px;
+    z-index: 5!important;
+    border: 1px solid rgba(0,0,0,.125) !important ;
+}
+.custom-box{
+    background: #fff !important;
+    cursor: pointer;
+}
+
+.hov-image{
+    position: relative;
+}
+.hov-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.hov-image:hover .hov-content{
+    display: flex;
+}
+.dots{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 1000;
+    
+}
+.custom-add-card{
+background: transparent !important;
+border: 2px dashed #999 !important;
+}
+.custom-add-card i{
+    color: #4b4b4b;
+    font-size: 2em;
+
+}
+
+/*ipad pro view*/
+@media (max-width:1024px){
+    .res-lg-hide{
+        display: none !important;
+    }
+}
+
+/*ipad view*/
+@media (max-width:768px){
+    .res-md-hide{
+        display: none !important;
+    }
+}
+/*mobile view*/
+@media (max-width:375px){
+    .res-xs-hide{
+        display: none !important;
+    }
+    .res-pad{
+        padding: 0 !important;
+    }
+}
+
+
